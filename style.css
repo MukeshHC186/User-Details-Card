@@ -24,7 +24,17 @@ background-color: green;
     margin: 10px;
     text-align: center;
     border-radius: 10px 40px;
-    background-color: rgba(0, 110, 255, 0.144);
+    background-color: rgba(121, 152, 194, 0.144);
+}
+h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 0, 0, 0.795);
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(62, 121, 189, 0.795);
 }
 .card_container:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
