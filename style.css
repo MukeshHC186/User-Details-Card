@@ -8,7 +8,12 @@
 .card_container img{
     width: 200px;
     height: 200px;
-    border-radius: 10px 40px;
+    border-radius: 10px 50px;
+    transition: all .5s ease-in-out;
+}
+.card_container img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .card_container button{
     padding: 7px 10px;
@@ -17,8 +22,15 @@
     font-size: 15px;
     width: 50%;
 color: white;
-background-color: green;
+background-color: rgba(34, 33, 33, 0.801);
 border: none;
+transition: all .5s ease-in-out;
+}
+.card_container button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+background-color: rgb(16, 110, 12);
+
 }
 .card_container{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -26,11 +38,13 @@ border: none;
     margin: 10px;
     text-align: center;
     border-radius: 20px 40px;
-    background-color: rgba(121, 152, 194, 0.144);
+    /* background-color: rgba(172, 175, 156, 0.185); */
     border: 1px solid gray;
+    transition: all .5s ease-in-out;
 }
 .card_container:hover{
     cursor: pointer;
+    transform: scale(1.02);
 }
 h3{
     font-size: 18px;
@@ -50,10 +64,21 @@ p{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    h3{
+        color: red;
+        font-size: 20px;
+    }
+    p{
+        font-size: 17px;
+    }
 }
 @media screen and (min-width:200px) and (max-width:767px) {
     #main_container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    h3{
+        color: red;   
+    }
+   
 }
