@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #main_container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -6,9 +11,9 @@
     padding: 10px;
 }
 .card_container img{
-    width: 200px;
+    width: 100%;
     height: 200px;
-    border-radius: 10px 50px;
+    border-radius: 20px 40px;
     transition: all .5s ease-in-out;
 }
 .card_container img:hover{
