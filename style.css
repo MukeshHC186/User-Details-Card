@@ -29,6 +29,9 @@ border: none;
     background-color: rgba(121, 152, 194, 0.144);
     border: 1px solid gray;
 }
+.card_container:hover{
+    cursor: pointer;
+}
 h3{
     font-size: 18px;
     font-weight: 500;
